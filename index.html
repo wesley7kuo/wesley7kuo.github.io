@@ -10,8 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,300&display=swap"
         rel="stylesheet">
@@ -21,13 +19,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
+    <style> 
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 
     <title>Wei's - 澎湖美食之旅</title>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -52,19 +55,19 @@
                                     澎湖各鄉鎮市區
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">馬公市</a></li>
+                                    <li><a class="dropdown-item" href="#Magong">馬公市</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">湖西鄉</a></li>
+                                    <li><a class="dropdown-item" href="#Huxi">湖西鄉</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">白沙鄉</a></li>
+                                    <li><a class="dropdown-item" href="#Baisha">白沙鄉</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">西嶼鄉</a></li>
+                                    <li><a class="dropdown-item" href="#Xiyu">西嶼鄉</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -78,10 +81,10 @@
                     </div>
                 </div>
             </nav>
-        </div>
+        
     </header>
     <section id="intro">
-        <div class="container-fluid bg-primary p-5">
+        <div class="container-fluid bg-light p-5">
             <div class="container">
                 <div class="col-md-12">
                     <h1 class="display-4">菊島美食大全</h1>
@@ -99,7 +102,7 @@
                     <h3>Wei's blog</h3>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="pictures/inner.png">
+                            <img src="pictures/我.jpg">
                             <h5>Wesley Kuo</h5>
                         </div>
                         <div class="col-md-8">
@@ -118,16 +121,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>馬公市區</h3>
+                    <!--馬公市-->
+                    <h3 id="Magong"><a href="Magong.html">馬公市</a></h3>
                     <div class="row">
                         <!--第一張相片-->
                         <div class="col-md-4">
                             <div class="outer">
-                                <a href="#">
+                                <a href="https://www.google.com.tw/maps/place/%E9%90%98%E8%A8%98%E7%87%92%E9%A4%85/@23.568407,119.564932,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af243103399:0xa92bc0958ecbdd53!8m2!3d23.568407!4d119.5671207?hl=zh-TW">
                                     <div class="upper">
-                                        <a href="https://www.google.com.tw/maps/place/%E9%90%98%E8%A8%98%E7%87%92%E9%A4%85/@23.568407,119.564932,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af243103399:0xa92bc0958ecbdd53!8m2!3d23.568407!4d119.5671207?hl=zh-TW">
                                             <img src="pictures/鐘記燒餅.jpg" height="250px">
-                                        </a>
                                     </div>
                                     <div class="lower">
                                         <h3>鐘記燒餅</h3>
@@ -141,11 +143,9 @@
                         <!--第二張相片-->
                         <div class="col-md-4">
                             <div class="outer">
-                                <a href="#">
+                                <a href="https://www.google.com.tw/maps/place/%E5%9F%8E%E9%9A%8D%E5%BB%9F%E5%89%8D%E7%87%92%E8%82%89%E9%A3%AF/@23.5660619,119.5641903,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5ac17fe89f0b:0xe30dab9cc1899ed2!8m2!3d23.566057!4d119.566379?hl=zh-TW">
                                     <div class="upper">
-                                        <a href="https://www.google.com.tw/maps/place/%E5%9F%8E%E9%9A%8D%E5%BB%9F%E5%89%8D%E7%87%92%E8%82%89%E9%A3%AF/@23.5660619,119.5641903,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5ac17fe89f0b:0xe30dab9cc1899ed2!8m2!3d23.566057!4d119.566379?hl=zh-TW">
                                             <img src="pictures/城隍廟前燒肉飯2.jpg" height="250px">
-                                        </a>
                                     </div>
                                     <div class="lower">
                                         <h3>城隍廟前燒肉飯</h3>
@@ -159,11 +159,9 @@
                         <!--第三張相片-->
                         <div class="col-md-4">
                             <div class="outer">
-                                <a href="#">
+                                <a href="https://www.google.com.tw/maps/place/%E6%BE%8E%E6%B9%96%E8%80%81%E5%AE%B6%E9%A4%A1%E9%A4%85/@23.5661494,119.5655715,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af296c16ab3:0xb9156550eaf4d64d!8m2!3d23.5661445!4d119.5677602?hl=zh-TW">
                                     <div class="upper">
-                                        <a href="https://www.google.com.tw/maps/place/%E6%BE%8E%E6%B9%96%E8%80%81%E5%AE%B6%E9%A4%A1%E9%A4%85/@23.5661494,119.5655715,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af296c16ab3:0xb9156550eaf4d64d!8m2!3d23.5661445!4d119.5677602?hl=zh-TW">
                                             <img src="pictures/澎湖老家餡餅.jpg" height="250px">
-                                        </a>
                                     </div>
                                     <div class="lower">
                                         <h3>澎湖老家餡餅</h3>
@@ -175,18 +173,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <br>
-                    </div>
+                    <br>
                     <div class="row">
                         <!--第四張相片-->
                         <div class="col-md-4">
                             <div class="outer">
-                                <a href="#">
+                                <a href="https://www.google.com.tw/maps/place/%E9%90%98%E8%A8%98%E7%87%92%E9%A4%85/@23.568407,119.564932,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af243103399:0xa92bc0958ecbdd53!8m2!3d23.568407!4d119.5671207?hl=zh-TW">
                                     <div class="upper">
-                                        <a href="https://www.google.com.tw/maps/place/%E9%90%98%E8%A8%98%E7%87%92%E9%A4%85/@23.568407,119.564932,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af243103399:0xa92bc0958ecbdd53!8m2!3d23.568407!4d119.5671207?hl=zh-TW">
                                             <img src="pictures/赤崁炸粿.jpg" height="250px">
-                                        </a>
                                     </div>
                                     <div class="lower">
                                         <h3>赤崁炸粿</h3>
@@ -200,11 +194,9 @@
                         <!--第五張相片-->
                         <div class="col-md-4">
                             <div class="outer">
-                                <a href="#">
+                                <a href="https://www.google.com.tw/maps/place/%E5%9F%8E%E9%9A%8D%E5%BB%9F%E5%89%8D%E7%87%92%E8%82%89%E9%A3%AF/@23.5660619,119.5641903,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5ac17fe89f0b:0xe30dab9cc1899ed2!8m2!3d23.566057!4d119.566379?hl=zh-TW">
                                     <div class="upper">
-                                        <a href="https://www.google.com.tw/maps/place/%E5%9F%8E%E9%9A%8D%E5%BB%9F%E5%89%8D%E7%87%92%E8%82%89%E9%A3%AF/@23.5660619,119.5641903,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5ac17fe89f0b:0xe30dab9cc1899ed2!8m2!3d23.566057!4d119.566379?hl=zh-TW">
                                             <img src="pictures/阿民刈包.jpg" height="250px">
-                                        </a>
                                     </div>
                                     <div class="lower">
                                         <h3>阿民刈包</h3>
@@ -218,11 +210,9 @@
                         <!--第六張相片-->
                         <div class="col-md-4">
                             <div class="outer">
-                                <a href="#">
+                                <a href="https://www.google.com.tw/maps/place/%E6%BE%8E%E6%B9%96%E8%80%81%E5%AE%B6%E9%A4%A1%E9%A4%85/@23.5661494,119.5655715,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af296c16ab3:0xb9156550eaf4d64d!8m2!3d23.5661445!4d119.5677602?hl=zh-TW">
                                     <div class="upper">
-                                        <a href="https://www.google.com.tw/maps/place/%E6%BE%8E%E6%B9%96%E8%80%81%E5%AE%B6%E9%A4%A1%E9%A4%85/@23.5661494,119.5655715,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af296c16ab3:0xb9156550eaf4d64d!8m2!3d23.5661445!4d119.5677602?hl=zh-TW">
                                             <img src="pictures/銘饗牛排.jpg" height="250px">
-                                        </a>
                                     </div>
                                     <div class="lower">
                                         <h3>銘饗牛排</h3>
@@ -234,9 +224,259 @@
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E6%B0%B8%E6%98%A5%E5%B0%8F%E9%A4%A8/@23.5651221,119.5646965,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af2cebb5faf:0x9e269c4c8e0314ab!8m2!3d23.5651221!4d119.5668852?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/永春小館.jpeg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>永春小館</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣馬公市仁愛路29號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9262006</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：週日至週五11:00~21:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E9%98%BF%E8%B1%B9/@23.5655731,119.5616175,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af34d7bdc19:0x197793362d013ecf!8m2!3d23.5655731!4d119.5638062?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/阿豹香腸.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>阿豹香腸攤</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣馬公市仁愛路99號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：0935017985</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：沒有提供</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E7%8E%89%E5%86%A0%E5%AB%A9%E4%BB%99%E8%8D%89/@23.5661721,119.5663617,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5af29c30b103:0x50875d0b5340b779!8m2!3d23.5661721!4d119.5685501?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/玉冠嫩仙草.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>玉冠嫩仙草</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣馬公市民福路32號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9260356</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：週四至週二10:00~22:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <!--湖西鄉-->
+                    <h3 id="Huxi"><a href="Huxi.html">湖西鄉</a></h3>
+                    <div class="row">
+                        <!--湖西1-->
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E6%BE%8E%E7%A6%8F%E5%8F%A4%E6%A3%97%E5%91%B3/@23.584587,119.6608923,17z/data=!4m12!1m6!3m5!1s0x346c4443185a50c1:0x8998a640c9d826c7!2z5r6O56aP5Y-k5qOX5ZGz!8m2!3d23.584587!4d119.663081!3m4!1s0x346c4443185a50c1:0x8998a640c9d826c7!8m2!3d23.584587!4d119.663081?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/澎福古棗味.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>澎福古棗味</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣湖西鄉157之3號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9922422</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天9:30~17:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E5%A4%A7%E5%9F%8E%E5%8C%97%E7%89%9B%E8%82%89%E9%BA%B5/@23.5651918,119.615995,15z/data=!4m5!3m4!1s0x346c45231e704781:0x1e5d58be899b36c4!8m2!3d23.5651918!4d119.6237385?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/大城北牛肉麵.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>大城北牛肉麵</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣湖西鄉大城北村43號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9210489</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：週四至週二10:45~19:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <!--白沙鄉-->
+                    <h3 id="Baisha"><a href="Baisha.html">白沙鄉</a></h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E6%BE%8E%E6%B9%96-%E5%9B%9E%E5%AE%B6%E7%82%B8%E7%B2%BF/@23.6324629,119.5963703,17z/data=!4m12!1m6!3m5!1s0x346c5cade88c5791:0xf141b7a9372ed1f2!2z5r6O5rmWLeWbnuWutueCuOeyvw!8m2!3d23.6324629!4d119.598559!3m4!1s0x346c5cade88c5791:0xf141b7a9372ed1f2!8m2!3d23.6324629!4d119.598559?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/回家炸粿.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>回家炸粿</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣白沙鄉122號之1</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：0918133630</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天13:00~18:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E8%8A%B1%E6%9E%9D%E4%B8%B8%E4%B8%89%E5%85%84%E5%BC%9F/@23.6566052,119.5571735,20z/data=!4m5!3m4!1s0x346c5cf58b763d89:0x41c79cd7213b8d38!8m2!3d23.6567987!4d119.5574354?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/花枝丸.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>通樑花枝丸、海菜煎餅</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣白沙鄉通樑村44號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：0920202555</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天7:00~18:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E6%98%93%E5%AE%B6%E4%BB%99%E4%BA%BA%E6%8E%8C%E5%86%B0/@23.6574726,119.553132,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5c5f3df9e3df:0xc7373e9cf6b565f1!8m2!3d23.6574726!4d119.5553207?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/仙人掌冰.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>易家仙人掌冰</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣白沙鄉191-2號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9932297</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天8:30~18:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                                <div class="outer">
+                                    <a href="https://www.google.com.tw/maps/place/%E5%B0%8F%E8%90%8D%E7%9A%84%E5%BA%97/@23.6531897,119.5152791,17z/data=!3m1!4b1!4m5!3m4!1s0x346c59de9ee36959:0x1576cc581835f779!8m2!3d23.6531897!4d119.5174678?hl=zh-TW">
+                                        <div class="upper">
+                                                <img src="pictures/小萍的店.jpg" height="250px">
+                                        </div>
+                                        <div class="lower">
+                                            <h3>小萍的店</h3>
+                                            <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣西嶼鄉11之3號</span><br>
+                                            <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9983841</span><br>
+                                            <span><i class="fa-regular fa-clock"></i>營業時間：週四至週二8:00~17:00</span>
+                                        </div>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <!--西嶼鄉-->
+                    <h3 id="Xiyu"><a href="Xiyu.html">西嶼鄉</a></h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E4%BA%8C%E5%B4%81%E6%9D%8F%E4%BB%81%E8%8C%B6/@23.604578,119.5161874,17z/data=!3m1!4b1!4m5!3m4!1s0x1406253e82aabf79:0xa370c65d4234dcb1!8m2!3d23.604578!4d119.5183761?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/杏仁茶.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>超讚的二崁杏仁茶</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣西嶼鄉36號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9983891</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天9:00~17:30</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E5%A4%A7%E6%B1%A0%E7%82%B8%E7%B2%BF%26%E9%AF%8A%E9%AD%9A%E6%8E%92/@23.6161058,119.5045074,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5961699a4215:0xa13c29fa5924c32b!8m2!3d23.6161058!4d119.5066961?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/鯊魚排.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>大池炸粿&鯊魚排</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣西嶼鄉88123號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9983407</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天14:30~18:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E5%A4%96%E5%9E%B5%E5%88%88%E5%8C%85+%E7%A6%8F%E6%B0%A3%E6%97%A9%E9%A4%90%E5%BA%97/@23.56469,119.4772729,17z/data=!3m1!4b1!4m5!3m4!1s0x346c59e0c8eab2b9:0x53d5af748bc454de!8m2!3d23.56469!4d119.4794616?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/外垵刈包.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>外垵刈包</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣西嶼鄉163-1號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9982815</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天5:00~18:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E4%BA%8C%E9%A6%AC%E8%B1%86%E8%8A%B1/@23.6049814,119.5140697,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5bd0faa6fac1:0xa27ad010e10e4877!8m2!3d23.6049815!4d119.5185544?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/二馬豆花.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>二馬豆花</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣西嶼鄉38號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：沒有提供</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天10:00~18:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="outer">
+                                <a href="https://www.google.com.tw/maps/place/%E5%A4%A7%E8%8F%93%E8%91%89%E7%BE%A9%E5%BC%8F%E6%89%8B%E5%B7%A5%E5%86%B0%E6%B7%87%E6%B7%8B/@23.5949584,119.5147505,17z/data=!3m1!4b1!4m5!3m4!1s0x346c5bc35c0229bb:0xbdedd37ea5273fa3!8m2!3d23.5949584!4d119.5169392?hl=zh-TW">
+                                    <div class="upper">
+                                            <img src="pictures/大果葉冰淇淋.jpg" height="250px">
+                                    </div>
+                                    <div class="lower">
+                                        <h3>大菓葉義式手工冰淇淋</h3>
+                                        <span><i class="fa-solid fa-location-crosshairs fa-beat-fade"></i>地址：澎湖縣西嶼鄉大果葉11號</span><br>
+                                        <span><i class="fa-solid fa-phone fa-bounce"></i>電話：06-9983901</span><br>
+                                        <span><i class="fa-regular fa-clock"></i>營業時間：每天10:00~17:00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
                 </div>
             </div>
         </div>
+
 
     </section>
     <!--Email的區塊-->
@@ -269,8 +509,8 @@
                 <div class="col-md-4">
                     <h4>連結</h4>
                     <ul>
-                        <li>主頁</li>
-                        <li>相關網頁</li>
+                        <li><a href="#top">主頁</a></li>
+                        <li><a href="reference.html">相關連結</a></li>
                         <li>常見問題</li>
                     </ul>
                 </div>

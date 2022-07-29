@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background position calc</title>
+    <style>
+        /*註解*/
+        *{color: brown;}  /* 通用選擇器 */
+        .a{color: red;}
+        .b{color: blue;}
+        .c{color: black;}
+        #latest{color: green;}
+        h1,h2,h3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: antiquewhite;
+        }
+        div{color: red;}
+        div[title]{color: blue;}
+        div[title=text]{color: yellow;}
+        div[title~=document]{color: blueviolet;}
+        
+        #wrqpper > p{color: black;}
+
+        p{color:rgba(252,186,3,0.8);
+            font-size:40px;
+            letter-spacing: 10px;
+            line-height: 1.5;
+            font-weight: 500;
+            text-align:right;/*left ,center*/
+            font-family: '標楷體', sans-serif;
+           }
+        div {
+            font-family:Arial,'Times New Roman','Microsoft YaHei'; 
+            font:bold 12px/0.75em Arial,'Times New Roman','Microsoft YaHei';
+            font-size:40px;
+            line-height: 1.5;
+            background: red;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border: 5px solid black;
+            padding: 10px 10px 20px 10px;
+            margin: 50px;
+            }
+        body { font-family: verdana, 'Times New Roman', 新細明體, 微軟正黑體; }
+
+    </style>
+</head>
+<body>
+    <p class="a">hello</p>
+    <p class="a b c">hello</p>
+    <p id="latest" class="b">此段會套用綠色</p>
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <div>red</div>
+    <div title="cool">blue</div>
+    <div title="text">yellow</div>
+    <div title="document text">purple</div>
+    <div id="wrqpper">
+        <p>this color is black</p>
+    </div>
+    <div id="wrapper">
+        <span>
+            <p>this color is not black</p>
+        </span>
+    </div>
+</body>
+</html>
