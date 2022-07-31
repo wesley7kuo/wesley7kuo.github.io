@@ -28,7 +28,7 @@ nav li{
 	margin-top: 20px;
 }
 .btn{
-    background-color: #f05f5c;
+    background-color: #3AB4F2;
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
@@ -39,13 +39,14 @@ nav li{
 }
 #second{
 	padding: 80px 0px;
+	background-color: #72FFFF;
 }
 #second h3, #latest h3{
 	margin-bottom: 70px;
 	font-size: 32px;
 }
 #second img{
-	border-radius: 100%;
+	border-radius: 50%;
     width: 108px;
 }
 #second h5{
@@ -107,7 +108,8 @@ p.lead{
 	margin-right:5px;
 }
 #email{
-	padding: 80px 0px
+	padding: 80px 0px;
+	background-color: #72FFFF;
 }
 footer{
 	padding: 80px 0px
