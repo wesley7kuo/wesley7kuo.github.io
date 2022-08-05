@@ -32,6 +32,14 @@ nav li{
     padding: 7px 28px;
     border-radius: 20px;
     border: none;
+	
+}
+.btn-title{
+    background-color: #0078AA;
+    padding: 10px 125px;
+    border-radius: 60px;
+    border: none;
+	font-size: 30px;
 }
 .btn:hover{
 	opacity:0.8;
